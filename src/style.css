@@ -1,1 +1,56 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 25px;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 5px rgba(32, 32, 32, 0.3);
+  position: relative;
+  font-family: serif;
+  margin: 25px auto;
+  min-width: 153px;
+  min-height: 341px;
+  max-height: 643px;
+}
+
+#top {
+  position: absolute;
+  top: -20px;
+  left: 15px;
+  font-size: 6.25em;
+}
+
+#bottom {
+  position: absolute;
+  bottom: -20px;
+  right: 15px;
+  font-size: 6.25em;
+  transform: rotate(180deg);
+}
+
+#medium {
+  font-size: 150px;
+}
+
+.♦,
+.♥ {
+  color: red;
+}
+
+#boton {
+  margin-bottom: 25px;
+}
+
+.labelWidth {
+  font-size: 25px;
+}
+
+.labelHeight {
+  font-size: 25px;
+}
